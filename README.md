@@ -11,3 +11,18 @@ Every number is the sum of the previous number for e.g.
  * 1 + 2 = 3 ...etc
 
 The first two numbers of the condition must be 0 and 1.
+
+## First Solution Implementation
+
+function fibonacci(n){
+    for(var fibonacciArray = [0,1], i=0,j=1,k=0; k<n;i=j,j=x,k++ ){
+        x=i+j;
+        fibonacciArray.push(x);
+    }
+    console.log(fibonacciArray);
+}
+
+//calling fibonacci
+fibonacci(50)
+
+## Recursive Solution Implementation
